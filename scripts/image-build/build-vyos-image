@@ -504,7 +504,7 @@ DOCUMENTATION_URL="{build_config['documentation_url']}"
         iter(os.remove, artifacts)
 
         ## Create the target ISO file path
-        iso_file = f"vyos-{version_data['version']}-{build_config['build_flavor']}-{build_config['architecture']}.iso"
+        iso_file = f"mct-{version_data['version']}-{build_config['build_flavor']}-{build_config['architecture']}.iso"
 
         ## Create live-build configuration files
 
