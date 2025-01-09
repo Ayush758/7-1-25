@@ -1,4 +1,4 @@
-SHELL := /bin/bash
+asafsfSHELL := /bin/bash
 
 build_dir := build
 
