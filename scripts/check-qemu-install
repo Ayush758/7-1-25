@@ -375,10 +375,10 @@ try:
     #################################################
     # Logging into VyOS system
     #################################################
-    op_mode_prompt = r'mct@mct:~\$'
-    cfg_mode_prompt = r'mct@mct#'
-    default_user = 'mct'
-    default_password = 'mct'
+    op_mode_prompt = r'vyos@vyos:~\$'
+    cfg_mode_prompt = r'vyos@vyos#'
+    default_user = 'vyos'
+    default_password = 'vyos'
 
     if args.sbtest:
         log.info('Disable UEFI Secure Boot for initial installation')
